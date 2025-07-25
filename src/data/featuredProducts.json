@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "BLACK VERTICAL STRIPED LACE CUBAN SHIRT",
+    "price": "1299.00",
+    "image": "images/c41.png"
+  },
+  {
+    "id": 2,
+    "name": "BLACK & GREY CONTRAST PANEL OVERSIZED SHIRT",
+    "price": "1499.00",
+    "image": "images/c42.png"
+  },
+  {
+    "id": 3,
+    "name": "LACE TREND TRIBE CUBAN SHIRT",
+    "price": "1099.00",
+    "image": "images/c43.png"
+  },
+  {
+    "id": 4,
+    "name": "DARK BAGGY CARGO DENIM",
+    "price": "1149.00",
+    "image": "images/c44.png"
+  }
+]

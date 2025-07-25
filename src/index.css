@@ -1,0 +1,318 @@
+/* HEADER --------------------------------------------------------- */
+/* Smooth nav hover effect */
+.nav-link-glass {
+  transition: all 0.3s ease;
+}
+
+.nav-link-glass:hover {
+  background: rgba(0, 123, 255, 0.1);
+  color: #007bff;
+  transform: scale(1.05);
+}
+
+.fw-semibold {
+  font-weight: 600;
+}
+
+/* Hero section styles */
+.hero-section {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/images/cover.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Title styling */
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+/* Description text styling */
+.hero-description {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Image styling */
+.hero-image {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Darker overlay effect */
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+
+/* Smooth transition for card hover effect */
+.transition-transform {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transform-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Styling for card image */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Adding background color to section */
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.modern-footer {
+  background-color: #111;
+  color: #bbb;
+  padding: 60px 0 40px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.modern-footer h6 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.modern-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modern-footer ul li {
+  margin-bottom: 8px;
+}
+
+.modern-footer ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.modern-footer ul li a:hover {
+  color: #fff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.socials a {
+  color: #bbb;
+  margin-right: 14px;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #222;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+
+/* Modal Background */
+.modal.fade.show {
+  transition: opacity 0.3s ease;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  border-radius: 12px;
+  border: none;
+  padding: 1.5rem;
+}
+
+/* Cart Item */
+.cart-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.cart-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Cart Item Image */
+.cart-item-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.modal-footer .btn-outline-secondary {
+  color: #6c757d;
+}
+
+.modal-footer .btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.product-img:hover {
+  transform: scale(1.05);
+}
+
+.add-to-cart-btn {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0d6efd;
+  color: white;
+  transform: scale(1.02);
+}
+
+
+
+.brand-logo:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* Custom Styles */
+.shadow-custom {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.border-bottom-custom {
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.input-custom {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s;
+}
+
+.input-custom:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
