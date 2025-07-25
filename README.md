@@ -1,13 +1,29 @@
-# React + Vite
+# 🛍️ Sukam Store – React Online Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sukam Store is a simple and responsive online shopping frontend built using **React**. It lets users browse products, view customer feedback, and proceed to checkout. The cart is managed using **React Context API**, and navigation is handled with **React Router**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧾 Browse and view products
+- 🛒 Add items to a shopping cart
+- 💬 Customer feedback section
+- 📦 Checkout page
+- ⚙️ State management with React Context API
+- 🎨 Styled with Bootstrap and Font Awesome
+- 🧭 Routing with `react-router-dom`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-<img width="1057" height="1280" alt="image" src="https://github.com/user-attachments/assets/938631e9-311c-4535-8530-97896f182452" />
+---
+
+## 📘 DSA Concepts Used
+
+Even though this is a frontend project, it still includes some core **Data Structures and Algorithms (DSA)** concepts:
+
+- **Arrays** – Used for storing and rendering product lists, cart items, and customer feedback.
+- **Objects** – Each product and cart item is stored as an object with properties like `id`, `name`, and `price`.
+- **Array Methods** – `map`, `filter`, `find` are used to loop through arrays, display products, and manage the cart.
+- **Context API** – Acts like a global store (similar to a HashMap) for managing cart state across components.
+- **Routing (React Router)** – Works like a tree traversal to navigate between pages like `/` and `/checkout`.
+
+---
